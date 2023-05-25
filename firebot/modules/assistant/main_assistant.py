@@ -34,7 +34,7 @@ async def start(event):
     hmmwow = devlop.first_name
     vent = event.chat_id
     mypic = Config.ASSISTANT_START_PIC
-    starttext = f"Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Assistant Bot. \n\nMy Master [{hmmwow}](tg://user?id={bot.uid}) \nYou Can Talk/Contact My Master Using This Bot. \n\nIf You Want Your Own Assistant You Can Deploy From Button Below. \n\nPowered By [Fire-X](github.com/TeamEviral/Fire-X)"
+    starttext = f"Hello, {firstname} ! Nice To Meet You, Well I Am {bot_id}, An Powerfull Assistant Bot. \n\nMy Master [{hmmwow}](tg://user?id={bot.uid}) \nYou Can Talk/Contact My Master Using This Bot. \n\nIf You Want Your Own Assistant You Can Deploy From Button Below. \n\nPowered By [Iwang-Bot](https://github.com/Iwang-cem/Iwang-bot)"
     if event.sender_id == bot.uid:
         await tgbot.send_message(
             vent,
@@ -60,8 +60,8 @@ async def start(event):
             caption=starttext,
             link_preview=False,
             buttons=[
-                [custom.Button.inline("Deploy your Fire-X", data="deploy")],
-                [Button.url("Contact Dev ❓", "t.me/Mrkahno")],
+                [custom.Button.inline("Deploy your Iwang", data="deploy")],
+                [Button.url("Contact Dev ❓", "t.me/Iw4ngs")],
             ],
         )
         if os.path.exists(mypic):
@@ -77,12 +77,12 @@ async def help(event):
     if event.query.user_id is not bot.uid:
         await tgbot.send_message(
             event.chat_id,
-            message="You Can Deploy Fire-X In Heroku By Following Steps Bellow, You Can See Some Quick Guides On Support Channel Or On Your Own Assistant Bot. \nThank You For Contacting Me.",
+            message="You Can Deploy Iwang-Bot In Heroku By Following Steps Bellow, You Can See Some Quick Guides On Support Channel Or On Your Own Assistant Bot. \nThank You For Contacting Me.",
             link_preview=False,
             buttons=[
-                [custom.Button.inline("Deploy your Fire-X", data="deploy")],
-                [Button.url("Help Me ❓", "https://t.me/firexuserbot")],
-                [Button.url("Github Repo ❓", "github.com/TeamEviral/Fire-X")],
+                [custom.Button.inline("Deploy your Iwang-Bot", data="deploy")],
+                [Button.url("Help Me ❓", "https://t.me/cemarasupport")],
+                [Button.url("Github Repo ❓", "github.com/Iwang-cem/Iwang-bot")],
             ],
         )
 
