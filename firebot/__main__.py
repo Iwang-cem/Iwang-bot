@@ -11,7 +11,7 @@ from firebot import bot
 from firebot.Configs import Config
 from firebot.utils import load_module, start_assistant
 
-sed = logging.getLogger("firebot")
+sed = logging.getLogger("iwangbot")
 
 
 async def add_bot(bot_token):
