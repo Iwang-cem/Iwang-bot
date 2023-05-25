@@ -44,7 +44,7 @@ if pro == True:
             )
             await asyncio.sleep(10)
             await no_admin_privilege_message.edit(
-                "This is useless SPAM dude . stop this enjoy chat man ",
+                "𝐉𝐀𝐍𝐆𝐀𝐍 𝐒𝐏𝐀𝐌 𝐘𝐀𝐇𝐇.. 𝐆𝐖 𝐋𝐀𝐆𝐈 𝐂𝐎𝐋𝐈 𝐉𝐀𝐍𝐆𝐀𝐍 𝐒𝐏𝐀𝐌 𝐍𝐀𝐍𝐓𝐈 𝐆𝐖 𝐁𝐋𝐎𝐂𝐊 🥵🥵 ",
                 link_preview=False,
             )
         else:
