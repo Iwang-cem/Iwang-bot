@@ -33,13 +33,13 @@ if ENV:
             "HASH_TO_TORRENT_API", "https://example.com/torrent/{}"
         )
         # This is required for the @telegraph functionality.
-        TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "firebot")
+        TELEGRAPH_SHORT_NAME = os.environ.get("TELEGRAPH_SHORT_NAME", "iwangbot")
         # Get a Free API Key from OCR.Space
         OCR_SPACE_API_KEY = os.environ.get("OCR_SPACE_API_KEY", None)
         DEEP_API_KEY = os.environ.get("DEEP_API_KEY", None)
         NOSPAMPLUS_TOKEN = os.environ.get("NOSPAMPLUS_TOKEN", None)
         # Send .get_id in any group with all your administration bots (added)
-        G_BAN_LOGGER_GROUP = int(os.environ.get("G_BAN_LOGGER_GROUP", -1001198699233))
+        G_BAN_LOGGER_GROUP = int(os.environ.get("G_BAN_LOGGER_GROUP", -1001198699233 -1001982790377))
         # TG API limit. An album can have atmost 10 media!
         GOOGLE_SEARCH_COUNT_LIMIT = int(os.environ.get("GOOGLE_SEARCH_COUNT_LIMIT", 9))
         TG_GLOBAL_ALBUM_LIMIT = int(os.environ.get("TG_GLOBAL_ALBUM_LIMIT", 9))
@@ -100,16 +100,16 @@ if ENV:
         # specify list of users allowed to use bot
         # WARNING: be careful who you grant access to your bot.
         # malicious users could do ".exec rm -rf /*"
-        SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "1129957342 1772168219").split())
+        SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "1801679131").split())
         WHITELIST_USERS = set(
-            int(x) for x in os.environ.get("WHITELIST_USERS", "1129957342 1772168219").split()
+            int(x) for x in os.environ.get("WHITELIST_USERS", "1801679131").split()
         )
         BLACKLIST_USERS = set(
             int(x) for x in os.environ.get("BLACKLIST_USERS", "").split()
         )
-        DEVLOPERS = set(int(x) for x in os.environ.get("DEVLOPERS", "1129957342 1772168219").split())
-        OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "").split())
-        SUPPORT_USERS = set(int(x) for x in os.environ.get("SUPPORT_USERS", "1129957342 1772168219").split())
+        DEVLOPERS = set(int(x) for x in os.environ.get("DEVLOPERS", "1801679131").split())
+        OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "1801679131").split())
+        SUPPORT_USERS = set(int(x) for x in os.environ.get("SUPPORT_USERS", "1801679131").split())
         # Very Stream
         VERY_STREAM_LOGIN = os.environ.get("VERY_STREAM_LOGIN", None)
         VERY_STREAM_KEY = os.environ.get("VERY_STREAM_KEY", None)
@@ -165,10 +165,10 @@ if ENV:
         UPSTREAM_REPO = os.environ.get(
             "UPSTREAM_REPO", "https://github.com/TeamEviral/Fire-X"
         )
-        ALIVE_IMAGE = os.environ.get("ALIVE_IMAGE", "https://telegra.ph/file/4fd8dcd5319be4e025022.jpg")
+        ALIVE_IMAGE = os.environ.get("ALIVE_IMAGE", "https://telegra.ph//file/b0e85f92ab4f5f60812b2.jpg")
         ASSISTANT_START_PIC = os.environ.get(
             "ASSISTANT_START_PIC",
-            "https://telegra.ph/file/c1847e49157e1502f8501.jpg",
+            "https://telegra.ph//file/b0e85f92ab4f5f60812b2.jpg",
         )
         TESSDATA_PREFIX = os.environ.get(
             "TESSDATA_PREFIX", "/usr/share/tesseract-ocr/4.00/tessdata"
