@@ -40,9 +40,9 @@ def get_readable_time(seconds: int) -> str:
 
 
 uptime = get_readable_time((time.time() - Lastupdate))
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "firebot"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "iwangbot"
 PM_IMG = Config.ALIVE_IMAGE
-pm_caption = "  __**★ғɪʀᴇ-x ɪs ʀᴜɴɴɪɴɢ sᴜᴄᴇssғᴜʟʟʏ★**__\n\n"
+pm_caption = "  __**★ɪᴡᴀɴɢ-ʙᴏᴛ ɪs ʀᴜɴɴɪɴɢ sᴜᴄᴇssғᴜʟʟʏ★**__\n\n"
 
 pm_caption += f"**━━━━━━━|━━━━━|━━━━━━**\n\n"
 pm_caption += f"                 ◉✿ ᴍᴀsᴛᴇʀ ✿◉\n  **{DEFAULTUSER}**\n\n"
@@ -50,10 +50,10 @@ pm_caption += f"┏━━━━━━━ɪɴғᴏ━━━━━━━━\n"
 pm_caption += f"┣•➳➠ `ᴛᴇʟᴇᴛʜᴏɴ:` `{version.__version__}` \n"
 pm_caption += f"┣•➳➠ `ᴠᴇʀsɪᴏɴ:` `{currentversion}`\n"
 pm_caption += f"┣•➳➠ `ᴜᴘᴛɪᴍᴇ:` `{uptime}`\n"
-pm_caption += f"┣•➳➠ `ᴄʜᴀɴɴᴇʟ:` [ᴊᴏɪɴ](https://t.me/Fire_X_CHANNEL)\n"
+pm_caption += f"┣•➳➠ `ᴄʜᴀɴɴᴇʟ:` [ᴊᴏɪɴ](https://t.me/cemarastore99)\n"
 pm_caption += f"┗━━━━━━━━━━━━━━━━━━━\n"
-pm_caption += f" ||•|| sᴇᴄᴜʀɪᴛʏ ʙʏ ғɪʀᴇ-x ||•||\n"
-pm_caption += " [ɢɪᴛʜᴜʙ](https://github.com/TeamEviral/Fire-X) • [ɢʀᴏᴜᴘ](https://t.me/FireXUserBot)"
+pm_caption += f" ||•|| sᴇᴄᴜʀɪᴛʏ ʙʏ  ||•||ɪᴡᴀɴɢ-ʙᴏᴛ\n"
+pm_caption += " [ɢɪᴛʜᴜʙ](https://github.com/Iwang-cem/Iwang-bot) • [ɢʀᴏᴜᴘ](https://t.me/cemarasupport)"
 
 
 @fire.on(fire_on_cmd(pattern=r"alive"))
@@ -69,6 +69,6 @@ CMD_HELP.update(
     {
         "alive": "**ALive**\
 \n\n**Syntax : **`.alive`\
-\n**Usage :** Check if firebot UserBot is Alive"
+\n**Usage :** Check if iwang UserBot is Alive"
     }
 )
