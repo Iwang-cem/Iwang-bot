@@ -21,7 +21,7 @@ It is not like the other bots which are being Suspended by Heroku. Hence, it can
   [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com)
   
  [![Sparkline](https://stars.medv.io/Iwang-cem/Iwang-Bot.svg)](https://stars.medv.io/Iwang-cem/Iwang-Bot)
- [![Sparkline](https://stars.medv.io/Iwang-cem/Iwang-Bot.svg)](https://stars.medv.io/Iwang-cem/Iwang-Bot)
+ [![Sparkline](https://camo.githubusercontent.com/1f9e75894c57ea7e8d4f6410c3051be52a5a01645ff9ad112afa693c93aadf5e/68747470733a2f2f73746172732e6d6564762e696f2f6465706c6f797068702f6465706c6f7965722e737667)
 
 # How to Deploy Iwang Userbot?
    
