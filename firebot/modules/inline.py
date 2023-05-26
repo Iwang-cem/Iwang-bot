@@ -17,11 +17,11 @@ from firebot.modules import inlinestats
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if PMPERMIT_PIC is None:
-    WARN_PIC = "https://telegra.ph/file/3dd42b44d10528fa1f925.jpg"
+    WARN_PIC = "https://telegra.ph//file/b0e85f92ab4f5f60812b2.jpg"
 else:
     WARN_PIC = PMPERMIT_PIC
 LOG_CHAT = Config.PRIVATE_GROUP_ID
-DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Fire-X"
+DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Iwang-Bot"
 
 if lang == "si":
 
@@ -30,7 +30,7 @@ if lang == "si":
         builder = event.builder
         result = None
         query = event.text
-        if event.query.user_id == bot.uid and query.startswith("Fire-X"):
+        if event.query.user_id == bot.uid and query.startswith("Iwang-Bot"):
             rev_text = query[::-1]
             buttons = paginate_help(0, CMD_HELP, "helpme")
             result = builder.article(
@@ -43,11 +43,11 @@ if lang == "si":
         elif event.query.user_id == bot.uid and query == "stats":
             result = builder.article(
                 title="Stats",
-                text=f"**Showing Stats For {DEFAULTUSER}'s Fire-XBot** \nNote --> Only Owner Can Check This \n(C) [Fire-X](https://github.com/TeamEviral/Fire-X)",
+                text=f"**Showing Stats For {DEFAULTUSER}'s Iwang-Bot** \nNote --> Only Owner Can Check This \n(C) [Iwang-Bot](https://github.com/Iwang-cem/Iwang-bot)",
                 buttons=[
                     [custom.Button.inline("Show Stats ?", data="terminator")],
                     [Button.url("Developed By", "https://github.com/TeamEviral")],
-                    [Button.url("Support Chat❤️", "t.me/FireXUserBot")],
+                    [Button.url("Support Chat❤️", "t.me/cemarasupport")],
                 ],
             )
             await event.answer([result])
@@ -149,7 +149,7 @@ if lang == "si":
         yt_dl_data = event.data_match.group(1).decode("UTF-8")
         link_s = yt_dl_data
         if event.query.user_id != bot.uid:
-            text = f"Please Get Your Own Fire-X And Don't Waste My Resources"
+            text = f"Please Get Your Own Iwang-Bot And Don't Waste My Resources"
             await event.answer(text, alert=True)
             return
         is_it = True
@@ -160,7 +160,7 @@ if lang == "si":
         sun = event.data_match.group(1).decode("UTF-8")
 
         if event.query.user_id != bot.uid:
-            text = f"Please Get Your Own FIRE-X And Don't Waste My Resources"
+            text = f"Please Get Your Own Iwang-Bot And Don't Waste My Resources"
             await event.answer(text, alert=True)
             return
         await _deezer_dl(sun, event, tgbot)
@@ -170,7 +170,7 @@ if lang == "si":
         yt_dl_data = event.data_match.group(1).decode("UTF-8")
         link_s = yt_dl_data
         if event.query.user_id != bot.uid:
-            text = f"Please Get Your Own Fire-X And Don't Waste My Resources"
+            text = f"Please Get Your Own Iwang-Bot And Don't Waste My Resources"
             await event.answer(text, alert=True)
             return
         is_it = False
@@ -180,7 +180,7 @@ if lang == "si":
     async def rip(event):
         link_s = event.pattern_match.group(1)
         if event.query.user_id != bot.uid:
-            text = f"Please Get Your Own Fire-X And Don't Waste My Resources."
+            text = f"Please Get Your Own Iwnag-Bot And Don't Waste My Resources."
             await event.answer(text, alert=True)
             return
         await _phdl(link_s, event, tgbot)
@@ -314,15 +314,15 @@ else:
         elif event.query.user_id == bot.uid and query == "stats":
             result = builder.article(
                 title="Stats",
-                text=f"**Showing Stats For {DEFAULTUSER}'s Fire-X** \nNote --> Only Owner Can Check This \n(C) Fire-X",
+                text=f"**Showing Stats For {DEFAULTUSER}'s Iwang-Bot** \nNote --> Only Owner Can Check This \n(C) Iwang-Bot",
                 buttons=[
                     [custom.Button.inline("Show Stats ?", data="terminator")],
                     [
                         Button.url(
-                            "Repo Here", "https://github.com/TeamEviral/Fire-X"
+                            "Repo Here", "github.com/Iwang-cem/Iwang-bot"
                         )
                     ],
-                    [Button.url("Join Channel ❤️", "t.me/https://t.me/Fire_X_CHANNEL")],
+                    [Button.url("Join Channel ❤️", "https://t.me/cemarastore99")],
                 ],
             )
             await event.answer([result])
@@ -391,7 +391,7 @@ else:
                 f"**🦹‍♀️ PLUGIN NAME 🦹‍♀️ :** `{plugin_name}` \n{CMD_HELP[plugin_name]}"
             )
         reply_pop_up_alert = help_string
-        reply_pop_up_alert += "\n\n**(C) @FIRE_X_CHANNEL** ".format(plugin_name)
+        reply_pop_up_alert += "\n\n**(C) @cemarastore99** ".format(plugin_name)
         if len(reply_pop_up_alert) >= 4096:
             crackexy = "`Pasting Your Help Menu.`"
             await event.answer(crackexy, cache_time=0, alert=True)
@@ -424,7 +424,7 @@ else:
         yt_dl_data = event.data_match.group(1).decode("UTF-8")
         link_s = yt_dl_data
         if event.query.user_id != bot.uid:
-            text = f"Please Get Your Own Fire-X And Don't Waste My Resources"
+            text = f"Please Get Your Own Iwang-Bot And Don't Waste My Resources"
             await event.answer(text, alert=True)
             return
         is_it = True
@@ -435,7 +435,7 @@ else:
         sun = event.data_match.group(1).decode("UTF-8")
 
         if event.query.user_id != bot.uid:
-            text = f"Please Get Your Own Fire-X And Don't Waste My Resources"
+            text = f"Please Get Your Own Iwang-Bot And Don't Waste My Resources"
             await event.answer(text, alert=True)
             return
         await _deezer_dl(sun, event, tgbot)
@@ -445,7 +445,7 @@ else:
         yt_dl_data = event.data_match.group(1).decode("UTF-8")
         link_s = yt_dl_data
         if event.query.user_id != bot.uid:
-            text = f"Please Get Your Own Fire-X And Don't Waste My Resources"
+            text = f"Please Get Your Own Iwang-Bot And Don't Waste My Resources"
             await event.answer(text, alert=True)
             return
         is_it = False
@@ -455,7 +455,7 @@ else:
     async def rip(event):
         link_s = event.pattern_match.group(1)
         if event.query.user_id != bot.uid:
-            text = f"Please Get Your Own Fire-X And Don't Waste My Resources."
+            text = f"Please Get Your Own Iwang-Bot And Don't Waste My Resources."
             await event.answer(text, alert=True)
             return
         await _phdl(link_s, event, tgbot)
@@ -486,7 +486,7 @@ else:
         await event.answer("Back", cache_time=0, alert=False)
         # This Is Copy of Above Code. (C) @SpEcHiDe
         buttons = paginate_help(0, CMD_HELP, "helpme")
-        sed = f"""Fire-X Userbot Modules Are Listed Here !\n
+        sed = f"""Iwang Userbot Modules Are Listed Here !\n
     For More Help or Support contact {DEFAULTUSER} \nCurrently Loaded Plugins: {len(CMD_LIST)}\nCurrently using Language - English (Standard)"""
         await event.edit(message=sed, buttons=buttons)
 
@@ -575,7 +575,7 @@ async def inline_id_handler(event: events.InlineQuery.Event):
     if event.query.user_id != bot.uid:
         resultm = builder.article(
             title="Not Allowded",
-            text=f"You Can't Use This Bot. \nDeploy Fire-X To Get Your Own Assistant, Repo Link [Here](https://github.com/TeamEviral/Fire-X)",
+            text=f"You Can't Use This Bot. \nDeploy Iwang-Bot To Get Your Own Assistant, Repo Link [Here](https://github.com/Iwang-cem/Iwang-bot)",
         )
         await event.answer([resultm])
         return
@@ -656,7 +656,7 @@ async def inline_id_handler(event: events.InlineQuery.Event):
     if event.query.user_id != bot.uid:
         resultm = builder.article(
             title="Not Allowded",
-            text=f"You Can't Use This Bot. \nDeploy Fire-X To Get Your Own Assistant, Repo Link [Here](https://github.com/TeamEviral/Fire-X)",
+            text=f"You Can't Use This Bot. \nDeploy Iwang-Bot To Get Your Own Assistant, Repo Link [Here](https://github.com/Iwang-cem/Iwang-bot)",
         )
         await event.answer([resultm])
         return
@@ -710,7 +710,7 @@ async def inline_id_handler(event: events.InlineQuery.Event):
     if event.query.user_id != bot.uid:
         resultm = builder.article(
             title="Not Allowded",
-            text=f"You Can't Use This Bot. \nDeploy Fire-X To Get Your Own Assistant, Repo Link [Here](https://github.com/TeamEviral/Fire-X)",
+            text=f"You Can't Use This Bot. \nDeploy Iwang-Bot To Get Your Own Assistant, Repo Link [Here](github.com/Iwang-cem/Iwang-bot)",
         )
         await event.answer([resultm])
         return
@@ -754,7 +754,7 @@ async def inline_id_handler(event: events.InlineQuery.Event):
     if event.query.user_id != bot.uid:
         resultm = builder.article(
             title="- Not Allowded -",
-            text=f"You Can't Use This Bot. \nDeploy Fire-X  To Get Your Own Assistant, Repo Link [Here](https://github.com/TeamEviral/Fire-X)",
+            text=f"You Can't Use This Bot. \nDeploy Iwang-Bot To Get Your Own Assistant, Repo Link [Here](https://github.com/Iwang-cem/Iwang-bot)",
         )
         await event.answer([resultm])
         return
@@ -800,7 +800,7 @@ async def inline_id_handler(event: events.InlineQuery.Event):
     if event.query.user_id != bot.uid:
         resultm = builder.article(
             title="- Not Allowded -",
-            text=f"You Can't Use This Bot. \nDeploy Fire-X To Get Your Own Assistant, Repo Link [Here](https://github.com/TeamEviral/Fire-X)",
+            text=f"You Can't Use This Bot. \nDeploy Iwang-Bot To Get Your Own Assistant, Repo Link [Here](https://github.com/Iwang-cem/Iwang-bot)",
         )
         await event.answer([resultm])
         return
@@ -834,7 +834,7 @@ async def inline_id_handler(event: events.InlineQuery.Event):
     if event.query.user_id != bot.uid:
         resultm = builder.article(
             title="- Not Allowded -",
-            text=f"You Can't Use This Bot. \nDeploy Fire-X To Get Your Own Assistant, Repo Link [Here](https://github.com/TeamEviral/Fire-X)",
+            text=f"You Can't Use This Bot. \nDeploy Iwang-Bot To Get Your Own Assistant, Repo Link [Here](https://github.com/Iwang-cem/Iwang-bot)",
         )
         await event.answer([resultm])
         return
@@ -887,7 +887,7 @@ async def inline_id_handler(event):
     if event.query.user_id != bot.uid:
         resultm = builder.article(
             title="- Not Allowded -",
-            text=f"You Can't Use This Bot. \nDeploy Fire-X To Get Your Own Assistant, Repo Link [Here](https://github.com/TeamEviral/Fire-X)",
+            text=f"You Can't Use This Bot. \nDeploy Iwang-Bot To Get Your Own Assistant, Repo Link [Here](https://github.com/Iwang-cem/Iwang-bot)",
         )
         await event.answer([resultm])
         return
