@@ -18,6 +18,7 @@ It is not like the other bots which are being Suspended by Heroku. Hence, it can
 
 # ANU ANU
   [![](https://img.shields.io/badge/Iwang-v0.7-darkgreen)](#) 
+  [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](https://makeapullrequest.com) 
 
 # How to Deploy Iwang Userbot?
    
