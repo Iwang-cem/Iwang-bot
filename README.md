@@ -17,9 +17,6 @@ This Userbot is Safe to use in Your Telegram Account.
 It is not like the other bots which are being Suspended by Heroku. Hence, it can be deployed to Heroku.
 
 
-## ᑈֆօƈɨǟʟ ՏԵɑԵմՏ օƒ ɮօԵ ᐵ 
-
-<p align="left"><a href="https://github.com/TeamEviral/Fire-X/network/members"><img src="https://img.shields.io/github/forks/TeamEviral/Fire-X?label=Forks&logoColor=purple&style=social"></a><p align="left"><a href="https://github.com/TeamEviral/Fire-X/stargazers"><img src="https://img.shields.io/github/stars/TeamEviral/Fire-X?logoColor=red&style=social"></a><p align="left"><a href="https://github.com/TeamEviral/Fire-X"><img src="https://img.shields.io/github/last-commit/TeamEviral/Fire-X?logoColor=brown&style=plastic"></a>
 
 # How to Deploy Iwang Userbot?
    
@@ -46,7 +43,8 @@ FROM
 
 
 ### SESSION STRING 
-<a href="https://replit.com/@Teameviral/Firex-1#main.py"><img alt="Run on Repl.it" src="https://camo.githubusercontent.com/05149b448485553c6f14f6430a45c12dcc79ed3c/68747470733a2f2f7265706c2e69742f62616467652f6769746875622f6a61727669733231303930342f4a6172766973" style="border-style: none; box-sizing: initial; max-width: 100%;" /></a></div>
+<a href="https://t.me/NayaStringBot" target="_blank"><img src="https://img.shields.io/badge/Join-Support%20Group-red.svg?style=for-the-badge&logo=Telegram"></a>
+
 #### SAFE TO USE 😌
 
 # CONFIGS 
