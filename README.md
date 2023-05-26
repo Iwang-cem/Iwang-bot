@@ -17,7 +17,7 @@ This Userbot is Safe to use in Your Telegram Account.
 It is not like the other bots which are being Suspended by Heroku. Hence, it can be deployed to Heroku.
 
 # ANU ANU
-  [![](https://img.shields.io/badge/Ultroid-v0.7-darkgreen)](#) 
+  [![](https://img.shields.io/badge/Iwang-Bot-v0.7-darkgreen)](#) 
 
 # How to Deploy Iwang Userbot?
    
