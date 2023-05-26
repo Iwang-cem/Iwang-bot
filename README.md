@@ -1,16 +1,16 @@
 <p align="center">
    
-   <a href="https://github.com/TeamEviral/Fire-X">
-      <img src="https://telegra.ph/file/4fd8dcd5319be4e025022.jpg" alt="firex", height="300px",width="300px">
+   <a href="https://github.com/Iwang-cem/Iwang-bot">
+      <img src="https://telegra.ph//file/b0e85f92ab4f5f60812b2.jpg" alt="Iwang", height="300px",width="300px">
    </a>
    <br>
    <b>Fire-X UserBot</b><br>
    <i>The Awaited Bot</i>
 </p>
  
-## New Updated Repo is [Here](https://github.com/Teameviral/FIREXUSERBOT).
+## New Updated Repo is [Here](https://github.com/Iwang-cem/Iwang-bot).
    
-# [Fire-X](https://t.me/FireXUserBot) userbot
+# [Iwang-Bot](https://t.me/cemarasupport) userbot
 
 The Most Powerful Telegram Userbot.
 This Userbot is Safe to use in Your Telegram Account.
@@ -61,30 +61,6 @@ STRING_SESSION [+] - STRING SESSION
 ```
 # SUPPORT 
 
-<a href="https://telegram.me/FIRE_X_CHANNEL" target="_blank"><img src="https://img.shields.io/badge/Join-Channel-yellow.svg?style=for-the-badge&logo=Telegram"></a>
+<a href="https://t.me/cemarastore99" target="_blank"><img src="https://img.shields.io/badge/Join-Channel-yellow.svg?style=for-the-badge&logo=Telegram"></a>
 
-<a href="https://telegram.me/FIREXSUPPORT" target="_blank"><img src="https://img.shields.io/badge/Join-Support%20Group-red.svg?style=for-the-badge&logo=Telegram"></a>
-
-
-#####  Credits 🌹
-
-- [DESTROY X](https://github.com/CriminaL786/Destroyx)😘 -
-Thanks For The solution of Suspension Sales force error. Full Respect
-
-- [FridayUserBot](https://github.com/DevsExpo/FridayUserBot)❤️ - 
-Most of the Plugins Taken from this Project.. Made possible by this. Full Credits. Full Respect
-
-- [DarkCobra](https://github.com/DARK-COBRA/DARKCOBRA) 😍 - 
-Image Tools Plugins Copied from DC Project.. Credits to DC Team
-
-- [CatUserbot](https://github.com/sandy1709/catuserbot)- 
-Internal Core Plugins taken.. Helped a lot to fix bugs in source.. Full respect
-
-- [Uniborg](https://github.com/SPECIHIDE/UniBorg)- 
-Userbots Made possible. Credits
-
-- [TeleBot](https://github.com/xditya/Telebot)-
-Speed Boosted by the help of this source code.. Credits
-
-- [Black Lightning](https://github.com/Keinshin/Black-lightning)- 
-Got Fun tools from this.. Respect
+<a href="https://t.me/cemarasupport" target="_blank"><img src="https://img.shields.io/badge/Join-Support%20Group-red.svg?style=for-the-badge&logo=Telegram"></a>
