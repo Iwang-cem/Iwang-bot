@@ -4,7 +4,7 @@
       <img src="https://telegra.ph//file/b0e85f92ab4f5f60812b2.jpg" alt="Iwang", height="300px",width="300px">
    </a>
    <br>
-   <b>Fire-X UserBot</b><br>
+   <b>Iwang UserBot</b><br>
    <i>The Awaited Bot</i>
 </p>
  
