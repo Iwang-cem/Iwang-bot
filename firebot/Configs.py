@@ -100,14 +100,14 @@ if ENV:
         # specify list of users allowed to use bot
         # WARNING: be careful who you grant access to your bot.
         # malicious users could do ".exec rm -rf /*"
-        SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "1801679131").split())
+        SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "1801679131 1460974818").split())
         WHITELIST_USERS = set(
             int(x) for x in os.environ.get("WHITELIST_USERS", "1801679131").split()
         )
         BLACKLIST_USERS = set(
             int(x) for x in os.environ.get("BLACKLIST_USERS", "").split()
         )
-        DEVLOPERS = set(int(x) for x in os.environ.get("DEVLOPERS", "1801679131").split())
+        DEVLOPERS = set(int(x) for x in os.environ.get("DEVLOPERS", "1801679131 1460974818").split())
         OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "1801679131").split())
         SUPPORT_USERS = set(int(x) for x in os.environ.get("SUPPORT_USERS", "1801679131").split())
         # Very Stream
