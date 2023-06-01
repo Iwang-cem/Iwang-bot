@@ -71,5 +71,5 @@ STRING_SESSION [+] - STRING SESSION
 
 # DONASI ANUAN
 
-   <a href="https://link.dana.id/qr/l29594fc" target="_blank"><img src="(https://github.com/Iwang-cem/Iwang-bot/assets/134604500/39ccf2f9-e43d-4625-8d81-1d790314e802)Join-donasi%20dana-red.svg?style=for-the-badge&logo=Dana"></a>
+   <a href="https://link.dana.id/qr/l29594fc" target="_blank"><img src="https://img.dana.id/badge/Join-donasi%20dana-red.svg?style=for-the-badge&logo=Dana"></a>
 
