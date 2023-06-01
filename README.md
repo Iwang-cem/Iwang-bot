@@ -69,4 +69,4 @@ STRING_SESSION [+] - STRING SESSION
 
 <a href="https://t.me/cemarasupport" target="_blank"><img src="https://img.shields.io/badge/Join-Support%20Group-red.svg?style=for-the-badge&logo=Telegram"></a>
 
-   <a href="hQVDUFYwMWFdTwegAAAGAiAgUAdxcmlzY3BtWgqTYAkVMwEWcyIfXyAQUlVNSU5FTSBBTCBEQVJUSV8tAmlkX1AHREFOQS5JRGMbn3QYMjgxMDEyMDI2NDYwMjExMTc4ODQ4NzMx" target="_blank"><img src="https://www.dana.id/badge/donasi%20dana-red.svg?style=for-the-badge&logo=DANA"></a>
+   <a href="https://link.dana.id/qr/l29594fc" target="_blank"><img src="https://www.dana.id/badge/donasi%20dana-red.svg?style=for-the-badge&logo=DANA"></a>
