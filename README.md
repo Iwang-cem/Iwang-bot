@@ -71,5 +71,5 @@ STRING_SESSION [+] - STRING SESSION
 
 # DONASI ANUAN
 
-   <a href="https://link.dana.id/qr/l29594fc" target="_blank"><img src="https://img.shields.io/badge/Join-donasi%20dana-blue?style=for-the-badge&logo=paypal"></a>
+   <a href="https://link.dana.id/qr/l29594fc" target="_blank"><img src="https://img.shields.io/badge/Join-donasi%20dana-blue?style=for-the-badge&logo=VISA"></a>
 
