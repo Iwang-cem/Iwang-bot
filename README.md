@@ -74,4 +74,4 @@ STRING_SESSION [+] - STRING SESSION
    <a href="https://link.dana.id/qr/l29594fc" target="_blank"><img src="https://img.shields.io/badge/Join-donasi%20dana-blue?style=for-the-badge&logo=honda"></a>
    
    
-[![](https://img.shields.io/badge/DANA-Pay-white?logo=DANA&logoColor=white&labelColor=blue)](https://link.dana.id/qr/l29594fc)
+[![](https://img.shields.io/badge/DANA-Pay-white?logo=HONDA&logoColor=white&labelColor=blue)](https://link.dana.id/qr/l29594fc)
