@@ -569,7 +569,7 @@ async def _ytdl(url, is_it, event, tgbot):
         )
         await event.edit(
             file=lol_m,
-            text=f"{ytdl_data['title']} \n**Uploaded Using iwang-X**",
+            text=f"{ytdl_data['title']} \n**Uploaded Using iwang**",
         )
         os.remove(f"{ytdl_data['id']}.mp3")
     elif video:
@@ -621,7 +621,7 @@ async def _deezer_dl(word, event, tgbot):
 **Duration :** {urlhp.get('duration')} Seconds
 **Artist :** {polu.get("name")}
 Music Downloaded And Uploaded By iwangbot
-Get Your iwangbot From iwang-X"""
+Get Your iwangbot From iwang"""
     await event.edit("Song Downloaded.  Waiting To Upload. 🥳🤗")
     c_time = time.time()
     uploaded_file = await upload_file(
