@@ -39,7 +39,7 @@ if ENV:
         DEEP_API_KEY = os.environ.get("DEEP_API_KEY", None)
         NOSPAMPLUS_TOKEN = os.environ.get("NOSPAMPLUS_TOKEN", None)
         # Send .get_id in any group with all your administration bots (added)
-        G_BAN_LOGGER_GROUP = int(os.environ.get("G_BAN_LOGGER_GROUP", -1001198699233 -1001982790377))
+        G_BAN_LOGGER_GROUP = int(os.environ.get("G_BAN_LOGGER_GROUP", -1001982790377))
         # TG API limit. An album can have atmost 10 media!
         GOOGLE_SEARCH_COUNT_LIMIT = int(os.environ.get("GOOGLE_SEARCH_COUNT_LIMIT", 9))
         TG_GLOBAL_ALBUM_LIMIT = int(os.environ.get("TG_GLOBAL_ALBUM_LIMIT", 9))
@@ -102,14 +102,14 @@ if ENV:
         # malicious users could do ".exec rm -rf /*"
         SUDO_USERS = set(int(x) for x in os.environ.get("SUDO_USERS", "1801679131 1460974818").split())
         WHITELIST_USERS = set(
-            int(x) for x in os.environ.get("WHITELIST_USERS", "1801679131").split()
+            int(x) for x in os.environ.get("WHITELIST_USERS", ").split()
         )
         BLACKLIST_USERS = set(
             int(x) for x in os.environ.get("BLACKLIST_USERS", "").split()
         )
         DEVLOPERS = set(int(x) for x in os.environ.get("DEVLOPERS", "1801679131 1460974818").split())
         OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "1801679131").split())
-        SUPPORT_USERS = set(int(x) for x in os.environ.get("SUPPORT_USERS", "1801679131").split())
+        SUPPORT_USERS = set(int(x) for x in os.environ.get("SUPPORT_USERS", ").split())
         # Very Stream
         VERY_STREAM_LOGIN = os.environ.get("VERY_STREAM_LOGIN", None)
         VERY_STREAM_KEY = os.environ.get("VERY_STREAM_KEY", None)
