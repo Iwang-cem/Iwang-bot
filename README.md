@@ -71,4 +71,4 @@ STRING_SESSION [+] - STRING SESSION
 
 # DONASI ANUAN
 
-[![](https://img.shields.io/badge/DANA-SupraBapak-white?logo=Money&logoColor=white&labelColor=blue)](https://link.dana.id/qr/l29594fc)
+[![](https://img.shields.io/badge/DANA-SupraBapak-white?logo=Dolar&logoColor=white&labelColor=blue)](https://link.dana.id/qr/l29594fc)
