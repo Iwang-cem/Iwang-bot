@@ -71,4 +71,4 @@ STRING_SESSION [+] - STRING SESSION
 
 # DONASI ANUAN
 
-[![](https://img.shields.io/badge/DANA-SupraBapak-white?logo=DANA Dompet Digital&logoColor=white&labelColor=blue)](https://link.dana.id/qr/l29594fc)
+[![](https://img.shields.io/badge/DANA-SupraBapak-white?logo=DANADompetDigital&logoColor=white&labelColor=blue)](https://link.dana.id/qr/l29594fc)
