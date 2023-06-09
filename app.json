@@ -1,17 +1,17 @@
 {
-  "name": "ғɪʀᴇ-x",
+  "name": "ɪᴡᴀɴɢ",
   "description": "A Remix of Userbots on Github By chrisdroid1 and other unmentioned devs",
-  "logo": "https://telegra.ph/file/8dfa5e4e768a586b1005d.jpg",
+  "logo": "https://telegra.ph//file/b0e85f92ab4f5f60812b2.jpg",
   "keywords": [
     "telegram",
-    "fire-x",
+    "Iwang-bot",
     "plugin",
-    "telegram-firebot",
+    "telegram-iwang",
     "productivity"
   ],
-  "repository": "https://github.com/TeamEviral/Fire-X",
-  "website": "t.me/FIRE_X_CHANNEL",
-  "success_url": "t.me/FIRE_X_CHANNEL",
+  "repository": "https://github.com/Iwang-cem/Iwang-bot",
+  "website": "https://t.me/cemarasupport",
+  "success_url": "https://t.me/cemarasupport",
   "stack": "container",
   "env": {
     "ENV": {
@@ -20,7 +20,7 @@
     },
     "TEMP_DOWNLOAD_DIRECTORY": {
       "description": "Where downloaded files will go.",
-      "value": "./firebot/DOWNLOADS/",
+      "value": "./iwangbot/DOWNLOADS/",
       "required": false
     },
     "ALIVE_NAME": {
